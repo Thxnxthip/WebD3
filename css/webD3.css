@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+ /*--------------------------start header-------------------------*/
+
+header {
+    background-color: #50158A;
+}
+nav {
+color: #ffffff;
+display: flex;
+width: 1100px;
+height: 50px;
+margin: auto;
+/*background-color: rgb(25, 16, 71);*/
+justify-content: space-between;
+align-items: center;
+
+}
+
+.logo {
+    text-transform: uppercase;
+    font-size: 24px;
+
+}
+
+.menu {
+    display: flex;
+    font-size: 18px;
+
+}
+li {
+    list-style: none;
+    margin-right: 20px;
+
+
+}
+a { 
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+/*--------------------start section-Hero------------------------------*/
+
+.hero {
+ margin: auto;
+ width: 1100px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+.hero-text-box {
+color: #ffffff;
+
+}
+.hero-button {
+ display: flex;
+
+}
+.hero-bt-getStarted {
+    background-color: #6698E2;
+padding: 6px 20px;
+border-radius: 30px;
+margin-right: 20px;
+
+}
+.hero-bt-watch {
+ display: flex;
+ align-items: center;
+ 
+}
+.hero-image {
+
+
+}
