@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    background-color: rgb(31, 119, 227);
+    align-items: center;
+}
+nav {
+    display: flex;
+  
+    justify-content: space-between;
+    margin: auto;
+    width: 95%;
+   
+
+}
+nav ul {
+ display: flex;
+ list-style: none;
+ 
+ 
+
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 247, 247);
+    
+    
+}
+nav ul li {
+    margin-right: 1.80rem;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+
+}
+.logo img {
+    margin-right: 0.5rem;
+
+}
+/*----------responsive navber-------*/
+@media screen and (max-width:480px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    }
+nav ul  {
+    flex-direction: column;
+        text-align: center;
+    
+}
+.mypet-content{
+    display: grid;
+}
+
+/*-------mypet-contect-----------*/
+
+.mypet-content {
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+}
+
+.box {
+    background-color: rgb(255, 255, 255);
+    margin: 30px 10px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 3px 0px rgba(1, 62, 247, 0.283);
+   /*border: 1px;*/
+   /*border-color: black;*/
+   /*border-style: inset;*/
+    
+}
+.image {
+    width: 100%;
+    border-radius: 12px 12px 0px 0px;
+}
+.text-content {
+    padding: 15px;
+}
+/*----------responsive navber-------*/
+@media screen and (max-width:768px) {
+.mypet-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+}
+@media screen and (max-width:480px) {
+    .mypet-content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    }
+    /*------- hero section----------*/
+    .hero {
+        background-repeat:no-repeat ;
+        background-size: cover;
+        background-image: url('https://www.intofilm.org/intofilm-production/scaledcropped/970x546https%3A/s3-eu-west-1.amazonaws.com/images.cdn.filmclub.org/film__18263-penguins-of-madagascar--hi_res-7e6dd8eb.jpg/film__18263-penguins-of-madagascar--hi_res-7e6dd8eb.jpg');
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-hero {
+        margin: 0;
+        color: #ffffff;
+        font-size: 60px;
+    }
+    .boxx {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        background-color: rgb(6, 193, 255);
+        height: 200px;
+        margin: auto;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .icon {
+  background-color: rgb(229, 213, 240);
+  border-radius: 100%;
+  height: 100px;
+  width: 100px;
+  margin: auto;
+    }
+    
+ /*  start footer */
+ footer {
+    background-color: #3a65f3;
+    color: rgb(255, 255, 255);
+    text-align:center;
+    padding: 0;
+}
+
