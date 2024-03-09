@@ -111,26 +111,45 @@ nav ul  {
     }
     .text-hero {
         margin: 0;
-        color: #ffffff;
+        color: #f3f3f3;
         font-size: 60px;
     }
     .boxx {
         display: grid;
         grid-template-columns: repeat(4,1fr);
-        background-color: rgb(6, 193, 255);
+        background-color: rgb(26, 108, 136);
         height: 200px;
         margin: auto;
         margin-top: 30px;
         text-align: center;
     }
     .icon {
-  background-color: rgb(229, 213, 240);
+  background-color: rgb(230, 228, 115);
   border-radius: 100%;
   height: 100px;
   width: 100px;
   margin: auto;
     }
-    
+    /* responsive mypet */
+@media only screen and (max-width: 768px) {
+    .boxs{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media only screen and (max-width: 768px) {
+    .mypet-content{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media only screen and (max-width: 480px) {
+    .mypet-content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
  /*  start footer */
  footer {
     background-color: #3a65f3;
