@@ -10,8 +10,7 @@ header {
 }
 nav {
     display: flex;
-  
-    justify-content: space-between;
+   justify-content: space-between;
     margin: auto;
     width: 95%;
    
@@ -45,21 +44,25 @@ nav ul li {
     margin-right: 0.5rem;
 
 }
+.mypet-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
 /*----------responsive navber-------*/
 @media screen and (max-width:480px) {
     nav {
         flex-direction: column;
         align-items: center;
-    }
+   
     }
 nav ul  {
     flex-direction: column;
         text-align: center;
-    
+
 }
-.mypet-content{
-    display: grid;
 }
+
 
 /*-------mypet-contect-----------*/
 
@@ -86,18 +89,7 @@ nav ul  {
     padding: 15px;
 }
 /*----------responsive navber-------*/
-@media screen and (max-width:768px) {
-.mypet-content{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-}
-}
-@media screen and (max-width:480px) {
-    .mypet-content{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-    }
-    }
+
     /*------- hero section----------*/
     .hero {
         background-repeat:no-repeat ;
@@ -117,21 +109,38 @@ nav ul  {
     .boxx {
         display: grid;
         grid-template-columns: repeat(4,1fr);
-        background-color: rgb(26, 108, 136);
+        background-color: rgb(255, 255, 255);
         height: 200px;
         margin: auto;
         margin-top: 30px;
         text-align: center;
     }
     .icon {
-  background-color: rgb(230, 228, 115);
+  background-color: rgb(197, 197, 197);
   border-radius: 100%;
   height: 100px;
   width: 100px;
   margin: auto;
     }
     /* responsive mypet */
-
+    @media screen and (max-width:768px) {
+        .mypet-content{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
+        }
+        @media screen and (max-width:768px) {
+            .mypet-content{
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+            }
+            }
+            @media screen and (max-width:768px) {
+                .boxx{
+                    display: grid;
+                    grid-template-columns: repeat(2,1fr);
+                }
+                }
 
  /*  start footer */
  footer {

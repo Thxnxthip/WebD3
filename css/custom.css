@@ -21,3 +21,6 @@ body {
     input {
         margin-top: 6px;
     }
+    .bg-mynav {
+        background-color: rgb(31, 144, 154);
+    }
