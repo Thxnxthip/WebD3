@@ -24,3 +24,6 @@ body {
     .bg-mynav {
         background-color: rgb(31, 144, 154);
     }
+    .connor {
+        border-radius: 40px 40px;
+    }
