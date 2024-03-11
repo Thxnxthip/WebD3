@@ -131,24 +131,7 @@ nav ul  {
   margin: auto;
     }
     /* responsive mypet */
-@media only screen and (max-width: 768px) {
-    .boxs{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-    }
-}
-@media only screen and (max-width: 768px) {
-    .mypet-content{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-    }
-}
-@media only screen and (max-width: 480px) {
-    .mypet-content{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-    }
-}
+
 
  /*  start footer */
  footer {
