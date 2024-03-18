@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>MyPet_Bs55</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -11,12 +11,14 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   </head>
   <body>
          <!-- -----------Menu------------ -->
          <nav class="navbar navbar-expand-sm navbar-dark bg-mynav fixed-top">
             <div class="container">
-                <img src="images/P4.png" alt="" class="mx-2">
+                <!-- <img src="images/P4.png" alt="" class="mx-2"> -->
+                <i class="fa-brands fa-themeisle fa-xl" style="color: #f1f5f8;"></i>
               <a class="navbar-brand " href="#">My Penquin</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -92,6 +94,50 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+  <!-- ---------------social section---------------- -->
+
+  <div>
+    <div class="row bg-mynav text-dark">
+      <div class="col-sm-3 mt-2 mb-2 " >
+        <div class="mycircle d-flex flex-column align-items-center pt-4">
+          <!-- <img width="40" height="40"
+          src="https://img.icons8.com/color/48/facebook.png"
+          alt="facebook"/ > -->
+          <i class="fa-brands fa-square-facebook fa-bounce fa-2xl" style="color: #374358;"></i>
+          <p>Facebook</p>
+        </div>
+      </div>
+      <div class="col-sm-3 mt-2 mb-2 ">
+        <div class="mycircle d-flex flex-column align-items-center pt-4">
+          <!-- <img width="40" height="40"
+          src="https://img.icons8.com/color/48/line-me.png"
+          alt="line-me"/> -->
+          <i class="fa-brands fa-line fa-bounce fa-2xl" style="color: #23d14f;"></i>
+          <p>Line</p>
+        </div>
+      </div >
+      <div class="col-sm-3  mt-2 mb-2">
+        <div class="mycircle d-flex flex-column align-items-center pt-4">
+        <!-- <img width="40" height="40"
+          src="https://img.icons8.com/fluency/48/instagram-new.png"
+          alt="instagram-new"/> -->
+          <i class="fa-brands fa-square-instagram fa-bounce fa-2xl" style="color: #ff0000;"></i>
+          <p>Intragram</p>
+      </div>
+      </div>
+      <div class="col-sm-3 mt-2 mb-2 ">
+        <div class="mycircle d-flex flex-column align-items-center pt-4 ">
+        <!-- <img width="40" height="40"
+          src="https://img.icons8.com/color/48/tiktok--v1.png"
+          alt="tiktok--v1"/> -->
+          <i class="fa-brands fa-tiktok fa-bounce fa-2xl"></i>=
+          <p>Tiktok</p>
+      </div>
+      </div>
+    </div>
+  </div>
+
+
  <!-- -------------------card--------------- -->
  <main>
 
@@ -162,15 +208,60 @@
     </div>
   
   </main>
+  <!-- -------------------table section--------------- -->
+  <section class="members ">
+    <div class="members-boxs">
+    <h1 class="text-h1 ">members</h1>
+    <p class="text-param">Lorem ipsum dolor sit amet consectetur. Sit eu vivamus maecenas diam velit 
+      magnis donec bibendum. <br>Pulvinar blandit aliquet facilisis vel integer integer euismod.  </p>
+      <br>
+      <table class="table table-hover table-primary table-striped">
+        <tr>
+          <th>#</th>
+          <th>Name</th>
+          <th>Position</th>
+          <th>Age</th>
+          <th>Start Date</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Thanathip    Noiprasert</td>
+          <td>RichMan</td>
+          <td>20</td>
+          <td>2020-04-27</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Somsuk     Soodhod</td>
+          <td>Sultan</td>
+          <td>25</td>
+          <td>2020-10-30</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Sompong    Socool</td>
+          <td>Millionaire</td>
+          <td>30</td>
+          <td>2020-09-05</td>
+        </tr>
+      </table>
+    </div>
+  </section>
+
+  <!-- ---------------footer------------- -->
   
   <footer class="text-muted py-5">
     <div class="container">
       <p class="float-end mb-1">
-        <a href="#">Back to top</a>
+        
+        <button class="btn  btn-outline-primary">
+          <a href="#" class="text-info">Back to top</a></button>
       </p>
       <p class="mb-1">Copyright by Thanathip  &copy; information Technology Program. Science and
         Technology Facuylty.</p>
-      <p class="mb-0">Nakhon Pathom Rajabhat University.<a href="/">Visit the homepage</a> or read our <a href="/docs/5.0/getting-started/introduction/">getting started guide</a>.</p>
+      <p class="mb-0">Nakhon Pathom Rajabhat University.
+        <a href="/">Visit the homepage</a> or read our 
+        <a href="/docs/5.0/getting-started/introduction/">getting started guide</a>.</p>
     </div>
   </footer>
  

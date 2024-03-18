@@ -27,3 +27,28 @@ body {
     .connor {
         border-radius: 40px 40px;
     }
+    .mycircle {
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        padding: 10px;
+        
+        background-color: rgba(255, 253, 254, 0.42);
+        margin: auto;
+
+    }
+    .member {
+        background-color: #380e44 ;
+        padding: 50px 0px;
+    
+      }
+    
+      .members-boxs {
+        width: 1100px;
+        margin: auto;
+    
+        background-color: #f1f1f1;
+        padding: 1px 40px 40px;
+        box-shadow: 0px 0px 5px 0px #50158A; 
+        border-radius: 5px;
+      }
