@@ -1,0 +1,81 @@
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+header {
+    background-color:#ffffff ;
+  
+} 
+.commu {
+    padding: 220px;
+}
+u{
+    padding: 10px;
+    text-decoration: none;
+}
+li{
+    
+}
+img{
+    width: 600px;
+    
+    
+}
+footer {
+    background: #2D4353;
+    color: rgb(255, 255, 255);
+    padding: 100px;
+   
+}
+.boxx {
+    display: grid;
+        grid-template-columns: repeat(5,1fr);
+        background-color: #2D4353(255, 255, 255);
+       margin: auto;
+        margin-top: 30px;
+        width: 300px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.icon {
+    border-radius: 100%;
+    margin: auto;
+   
+}
+.Follow {
+   
+     color: #ffffff;
+}
+.about  {
+    display: flex;
+     margin: auto;
+     width: 700px;
+     padding: 7% 40px ;
+}
+
+.aboutphomlo {
+    display: flex;
+     margin: auto;
+     
+    
+}
+.relative {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    
+  } 
+  
+.absolute {
+    position: absolute;
+    top: 120px;
+    right:0px ;
+    
+    width: 3px;
+    height: 3px;
+    
+  }

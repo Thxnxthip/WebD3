@@ -22,7 +22,7 @@ body {
         margin-top: 6px;
     }
     .bg-mynav {
-        background-color: rgb(31, 144, 154);
+        background-color: rgb(64, 196, 232);
     }
     .connor {
         border-radius: 40px 40px;
@@ -33,12 +33,12 @@ body {
         border-radius: 100px;
         padding: 10px;
         
-        background-color: rgba(255, 253, 254, 0.42);
+        background-color: rgba(252, 252, 252, 0.82);
         margin: auto;
 
     }
     .member {
-        background-color: #380e44 ;
+        background-color: #7630bc;
         padding: 50px 0px;
     
       }
@@ -47,8 +47,8 @@ body {
         width: 1100px;
         margin: auto;
     
-        background-color: #f1f1f1;
+        background-color: #66c1cb;
         padding: 1px 40px 40px;
-        box-shadow: 0px 0px 5px 0px #50158A; 
+        box-shadow: 0px 0px 5px 0px #7630bc; 
         border-radius: 5px;
       }
