@@ -1,3 +1,43 @@
+nav {
+    /* border: 3px solid #e9fa00;  */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2D4353;
+ }
+ .logo {
+    /* border: 3px solid #bb1cc0; */
+    width: 1px;
+     
+    display: flex;
+    align-items: center;
+    margin: auto 26px;
+    
+}
+.text-h2 {
+    margin-left: 50px;
+    color: white;
+    
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.menu {
+    /* border: 3px solid #49b816; */
+    width: 300px;
+    display: flex;
+     list-style: none;
+    
+
+}
+li {
+    margin-right: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
 body {
     background-color: #ffffff;
     margin: 0;
@@ -10,8 +50,12 @@ header {
     background-color:#ffffff ;
   
 } 
+
 .commu {
-    padding: 220px;
+    border-radius: 50px;
+    padding: 150px;
+    background-color: #EAF9FE;
+    
 }
 u{
     padding: 10px;
@@ -28,8 +72,8 @@ img{
 footer {
     background: #2D4353;
     color: rgb(255, 255, 255);
-    padding: 100px;
-   
+    padding: 30px 200px;
+     text-align: ;
 }
 .boxx {
     display: grid;
@@ -54,13 +98,11 @@ footer {
     display: flex;
      margin: auto;
      width: 700px;
-     padding: 7% 40px ;
+     padding: 7% 200px ;
+    margin-left: auto;
 }
 
 .aboutphomlo {
-    display: flex;
-     margin: auto;
-     
     
 }
 .relative {
@@ -78,4 +120,24 @@ footer {
     width: 3px;
     height: 3px;
     
+  }
+  .link {
+    font-size: 30px;
+    text-align: center;
+    color: #974747;
+    
+    
+  }
+  .borderFig {
+   
+    background-color: rgb(10, 40, 48);
+    border-radius: 10px;
+    margin: auto;
+    border-style:groove ;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgb(2, 94, 94);
+    width: 190px;
+    height: 90px;
+   
+
   }
